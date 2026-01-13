@@ -44,12 +44,14 @@ router.post('/subscribe', async (req: Request, res: Response) => {
     }
 
     // Salvar no arquivo JSON
+    /*
     try {
       await saveSubscriber(subscriber);
     } catch (fileError) {
       console.error('Erro ao salvar em arquivo:', fileError);
       // Continuar mesmo se arquivo falhar
     }
+    */
 
     // Enviar email de boas-vindas
     try {
