@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
+    "build": "echo 'No build needed for serverless functions'",
     "start": "node dist/server.js"
   },
   "dependencies": {
