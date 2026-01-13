@@ -67,26 +67,8 @@ export const sendWelcomeEmail = async (email: string, name: string) => {
                               onerror="this.style.display='none';"
                             />
                             <!-- Fallback (if image blocked) -->
-                            <div style="
-                              font-family: Georgia, 'Times New Roman', Times, serif;
-                              font-size:18px;
-                              letter-spacing:3px;
-                              color:#EFD19F;
-                              text-transform:uppercase;
-                              margin-top:10px;
-                            ">
-                              MIRAGEM
-                            </div>
-                            <div style="
-                              font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
-                              font-size:10px;
-                              letter-spacing:2px;
-                              color:rgba(246,240,223,0.65);
-                              text-transform:uppercase;
-                              margin-top:6px;
-                            ">
-                              BY ENID NKINI
-                            </div>
+                     
+                        
                           </td>
                         </tr>
   
